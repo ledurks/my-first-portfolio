@@ -39,6 +39,16 @@ def main():
     print ("your last name has successfully been enteres as " + last_name)
 
     age = input("age:")
+    person = User(age)
+    print ("your age has been successfully entered " + age)
+
+    school = input("school:")
+    person = User(school)
+    print ("your school has been successfully entered " + school)
+
+    gender = input("gender:")
+    person = User(gender)
+    print ("your gender has been successfully entered " + gender)
     
 # Runs your program.
 if __name__ == '__main__':
