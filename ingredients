@@ -1,0 +1,21 @@
+ingredients ={
+    "butter" : "2 c",
+    "sugar" : "2 c",
+    "eggs" : "2",
+    "milk" : "1/4 c",
+    "vanilla" : "2 tsp",
+    "flour" : "8 c",
+    "baking powder" : "4 tsp",
+    "salt" : "1 tsp "}
+# intructions ={
+#     "butters" : "cream",
+#     "sugars" : "cream",
+#     "eggs" : "beat",
+#     "milk" : "beat",
+#     "vanilla" : "beat",
+#     "flour" : "whisk",
+#     "baking powder" : "whisk",
+#     "salt" : "whisk "
+# }
+for ingredient, amount in ingredients.items():
+    print(ingredient)
