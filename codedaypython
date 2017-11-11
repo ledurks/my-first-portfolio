@@ -1,0 +1,20 @@
+name = raw_input('What is your name? ')
+country = raw_input('What is your country? ')
+gender = raw_input('What is your gender? ')
+time = raw_input('what is your Personal Record?')
+
+print('You have been hand selected to compete in the Worlds most elite cross country meet')
+print('Your challenge, if you accept, is to race against the hand selected 300 contestants in the race Peoria')
+print('your name is ' + name+ 'you are from ' + country + 'and are ' + gender)
+
+print('Do you accept?')
+print('Do you decline?')
+
+action_choice = raw_input("Enter your choice here: ")
+
+if action_choice == 'accept':
+  print('YUSSSS!')
+elif action_choice == 'decline': 
+  print("Your opinion doesn't matter, you are still in the meet. We hand selected you you must compete.")
+else:
+  print('you spelled it wrong, but luckily since a genius built this code I can come back from this error. You are still in the competition.')
