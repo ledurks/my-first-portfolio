@@ -1,0 +1,29 @@
+print('One day, a group of three friends went out on a walk.')
+print('The three friends were named Josh, Kaily, and Anna.')
+name = raw_input('Pick a character to be for the rest of this adventure.')
+
+if name == 'Josh':
+  print('Your character drove the group to the woods and parked the car. He is in charge of directions and holding the map.')
+elif name == 'Kaily': 
+  print("Your character didn't want to go on the nature walk in the first place, but she was persuaded to go because both Josh and Keily wanted her to join. She doesn't have very many nature skills and came very illprepared. ")
+elif name == 'Anna':
+  print("This whole nature walk was your character's idea. She came over prepared and convinced her two best friends to join her.")
+else:
+  print('**you spelled it wrong, but luckily since a genius built this code. you still get to be the character of your choice. Do not fret.')
+print ('Now that you have chosen your character it is time to get on with the adventure.')
+print ('Josh picks up Anna and Kaily and they drive to Black Hedge Park.')
+print ('Black Hedge is a huge park and I mean HUGE. It is surrounded by absolutelty nothing and it is known to be very easy to get lost in becuase the trails are not well marked.')
+print ('Anna is aware of this and brings a huge hiking and camping backpack full of supplies just in case their nature walk takes a bad turn.')
+
+if name == 'Anna':
+  print('Good job Anna you will not regret bringing those supplies.')
+if name == 'Kaily':
+  print('No one told you that this park was known for getting people lost...')
+if name == 'Josh':
+  print('You notice your car is on low gas but you dont tell Anna or Kaily because you know they will freak out and make you go get gas when you probably have enough to make it there and back anyway.')
+
+print('The group of three arrives at the park and Josh parks the car.')
+print('now it is time to decide which trail to take.')
+trail = raw_input('Waterfall, Lily Lake, or Honeysuckle Hedge')
+
+if trail == 'Waterfall'
